@@ -48,6 +48,10 @@
     color: #ffffff;
 }
 
+.navbar > .container .navbar-brand:hover {
+    color: #777;
+}
+
 .nav li:last-child a {
     padding-right: 0;
 }
