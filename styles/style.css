@@ -461,6 +461,16 @@ footer .family-font {
 
 /*MEDIA QUERIES*/
 
+@media (max-width: 614px) {
+    .nav-tabs>li {
+        display: block;
+    }
+}
+
+@media (max-width: 695px) {
+
+}
+
 @media (max-width: 768px) {
     #Search-query {
         margin-left: 30px;
