@@ -82,7 +82,8 @@
 
 .input-right {
     padding-right: 0;
-    text-align: right;
+    padding-left: 30px;
+    text-align: left;
 }
 
 .left-form {
@@ -105,9 +106,17 @@
     margin-left: -5px;
 }
 
-.header-fields .col-md-5 .form-inline .date-group {
-    padding-left: 25px;
-    text-align: center;
+.inp-btns {
+    display: inline-block;
+}
+
+.form-group.date-group {
+    text-align: left;
+    width: 100%;
+}
+
+.form-group.date-group input {
+    width: 56%;
 }
 
 .header-fields .col-md-5 .form-inline .date-group .btn-primary {
@@ -116,13 +125,6 @@
 
 .header-fields .col-md-5 .form-inline .date-group p {
     padding-left: 5px;
-}
-
-.header-fields .col-md-5 .form-inline .form-group input.datepicker {
-    width: 163px;
-    position: relative;
-    left: 5px;
-    border-radius: 0;
 }
 
 .header-fields p.text-warning {
