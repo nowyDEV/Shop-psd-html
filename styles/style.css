@@ -36,6 +36,7 @@
 
 .nav.navbar-nav.navbar-right > li > a {
     color: #ffffff;
+    font-weight: bold;
 }
 
 .nav.navbar-nav.navbar-right > li > a:hover {
@@ -48,7 +49,7 @@
 }
 
 .nav li:last-child a {
-    padding-right: 0px;
+    padding-right: 0;
 }
 
 
@@ -57,78 +58,37 @@
 
 /*HEADER*/
 
-.header-fields {
+header {
     background-color: #ebebeb;
-    min-height: 134px;
+    padding-bottom: 10px;
+}
+
+.header-fields {
     position: relative;
     margin-top: 0;
     padding-top: 10px;
 }
 
-.header-fields button {
-    margin-left: -5px;
-}
-
-.header-fields .col-md-5 .form-inline .form-group input {
-    width: 290px;
-    position: relative;
-    left: 5px;
-    border-radius: 0;
-}
-
 .input-left {
     padding-left: 0;
+    margin-left: -15px;
 }
 
 .input-right {
-    padding-right: 0;
-    padding-left: 30px;
-    text-align: left;
+    padding: 0;
+}
+
+.text-warning {
+    display: inline-block;
+    padding-left: 80px;
 }
 
 .left-form {
     width: 100%;
 }
 
-.form-control {
-    display: inline-block;
-}
-
-#Search-query {
-    width: 85%;
-}
-
 .left-form button {
     width: 40px;
-}
-
-.header-fields .col-md-5 .form-inline .search-group {
-    margin-left: -5px;
-}
-
-.inp-btns {
-    display: inline-block;
-}
-
-.form-group.date-group {
-    text-align: left;
-    width: 100%;
-}
-
-.form-group.date-group input {
-    width: 56%;
-}
-
-.header-fields .col-md-5 .form-inline .date-group .btn-primary {
-    margin-left: -5px;
-}
-
-.header-fields .col-md-5 .form-inline .date-group p {
-    padding-left: 5px;
-}
-
-.header-fields p.text-warning {
-    text-align: left;
 }
 
 .logo-img {
@@ -500,11 +460,23 @@ footer .family-font {
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 992px) {
-    .input-right {
-        text-align: center;
+@media (max-width: 768px) {
+    #Search-query {
+        margin-left: 30px;
     }
 
+    .navbar-form {
+        margin: 8px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-form {
+        margin-right: -30px;
+    }
+}
+
+@media (max-width: 992px) {
     .site-bottom .col-middle {
         border: none;
         border-top: 1px solid #ffffff;
@@ -514,7 +486,7 @@ footer .family-font {
     }
 
     .logo-img {
-        margin-bottom: 15px;
+        margin-top: 15px;
     }
 
     .site-bottom .row {
@@ -529,11 +501,9 @@ footer .family-font {
         padding: 0 54px;
     }
 
-    .header-fields {
-        text-align: center;
+    .nav li:last-child a {
+        padding-right: 10px;
     }
-
-
 }
 
 

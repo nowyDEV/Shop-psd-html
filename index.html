@@ -19,6 +19,7 @@
 <body>
 
     <header>
+
         <nav class="navbar navbar-top navbar-default">
             <div class="container">
                 <div class="row">
@@ -49,40 +50,44 @@
             </div>
         </nav>
 
-        <div class="header-fields">
-            <div class="container">
+            <div class="container header-fields">
                 <div class="row">
 
                     <div class=" col-sm-5 col-xs-12 input-left">
-                        <form class="form-inline">
-                            <div class="form-group search-group left-form">
+                        <form class="navbar-form">
+                            <div class="input-group col-xs-12 col-sm-10 pull-left">
                                 <label class="sr-only" for="Search-query">Search</label>
                                 <input type="text" class="form-control" id="Search-query" placeholder="Search">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </div>
                             </div>
-
                         </form>
-
                     </div>
+
                     <div class="col-sm-2 col-xs-12">
                         <img src="images/no_image.jpg" class="logo-img img-responsive center-block" alt="logo-img">
                     </div>
+
                     <div class="col-sm-5 col-xs-12 input-right">
-                        <form class="form-inline">
-                            <div class="form-group date-group">
+                        <form class="navbar-form">
+                            <div class="input-group order-panel pull-right col-xs-12 col-sm-10">
                                 <label class="sr-only" for="order-date">Date for order</label>
-                                <input type="text" class="datepicker form-control" id="order-date" data-date-format="D, M d">
+                                <input type="text" class="datepicker form-control" id="order-date" data-date-format="D, M d" placeholder="Ordering for...">
+                                <div class="input-group-btn">
                                 <button type="submit" class="btn btn-success">MY SHOP</button>
+                                 </div>
+                                <div class="input-group-btn">
                                 <button type="submit" class="btn btn-primary">Cart(0)</button>
-                                <p class="text-warning">All orders must be placed before 5PM</p>
+                                 </div>
+
                             </div>
                         </form>
+                        <p class="text-warning">All orders must be placed before 5PM</p>
                     </div>
 
                 </div>
             </div>
-        </div>
 
     </header>
 
@@ -209,7 +214,7 @@
                                 </p>
                             </div>
                             <button type="button" class="btn btn-default btn-block">
-                                ADD TO CART<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                ADD TO CART <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </button>
                         </div>
                         <div class="shop-item">
@@ -220,7 +225,7 @@
                                 </p>
                             </div>
                             <button type="button" class="btn btn-default btn-block">
-                                ADD TO CART<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                ADD TO CART <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </button>
                         </div>
 
@@ -232,7 +237,7 @@
                                 </p>
                             </div>
                             <button type="button" class="btn btn-default btn-block">
-                                ADD TO CART<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                ADD TO CART <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </button>
                         </div>
                         <div class="shop-item">
@@ -243,7 +248,7 @@
                                 </p>
                             </div>
                             <button type="button" class="btn btn-default btn-block">
-                                ADD TO CART<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                ADD TO CART <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </button>
                         </div>
                         <div class="shop-item">
@@ -254,7 +259,7 @@
                                 </p>
                             </div>
                             <button type="button" class="btn btn-default btn-block">
-                                ADD TO CART<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                ADD TO CART <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
